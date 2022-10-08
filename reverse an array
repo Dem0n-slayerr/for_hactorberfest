@@ -1,0 +1,19 @@
+#include<iostream>
+Using namespace std;
+Void reverse(int arr[], int n){
+   Int start = 0;
+   Int end = n-1;
+  While(start<=end)
+{
+
+Int main()
+{
+     Int arr[6] = {1, 4, 0, 5, -2, 15};
+      Int arr[5] = {2, 6, 3, 9, 4};
+     reverse(arr, 6);
+     reverse(arr, 5);
+
+  printarray(arr, 6);
+  printarray(arr, 5);
+return 0;
+}
